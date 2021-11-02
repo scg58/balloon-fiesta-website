@@ -1,3 +1,6 @@
+:root {
+  --background: #FFF5B4;
+}
 body {
     margin: 0;
     padding: 0;
@@ -8,9 +11,8 @@ body {
   }
   
   header {
-    background: var(--background);
     text-align: center;
-    position: fixed;
+
     width: 100%;
     z-index: 999;
   }
@@ -159,22 +161,25 @@ body {
   
   .hero-image{
      background-image: url("images/main-page-header.png");
+  }
   
   .hero-text {
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 40px;
+    color:black;
+    font-size: 20px;
   }
   
 
   .footer {
-    height:40px;
-    background-color: white;
-    color: black;
+    height:250px;
+    background-color: #080E36;
+    color:white;
     text-align: center; 
-    font-size: 30px;
+    font-size: 20px;
   }
+
+ 

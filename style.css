@@ -11,6 +11,11 @@
 :root {
   --background: #FFF5B4;
 }
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
 body {
   font-family: 'Zen Kaku Gothic New', sans-serif;
     margin: 0;
@@ -279,7 +284,19 @@ h2{
   font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
+.card{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 
+.card div{
+  width: 50%;
+  margin: 10px;
+}
+.card-2{
+
+}
 
 .ticket-box {
   width:300px;

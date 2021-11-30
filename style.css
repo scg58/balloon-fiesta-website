@@ -52,6 +52,18 @@ h2{
     background-size: cover;
   }
 
+  .wrapper-faq-boxes{
+    display:block;
+    width:25%;
+    text-align: center;
+  
+  }
+  .faq-card-img{
+    padding-top: 50px;
+  }
+
+  
+
  .ticket-hero-text{
    text-align: center;
    font-size: 50px;
@@ -243,7 +255,9 @@ h2{
     border-radius: 10px;
     text-align: center;
     padding: .5em .5em;
-    
+    display:block;
+    margin-top: 20px;
+    width: 200px;
   }
 
 
@@ -253,7 +267,6 @@ h2{
 }
 
 .box {
-
   background: white;
   border: 3px solid #00ACFF;
   padding: 10px;
@@ -300,6 +313,8 @@ h2{
   position: relative;
   display: flex;
   justify-content: center;
+  gap: 50px;
+
 }
 
 .gallery-photos{
@@ -365,10 +380,11 @@ button:hover {
 
 .wrapper-faq {
   position: relative;
-  display: flex;
-  justify-content: center;
   list-style: none;
   line-height: 40px;
+  width:80%;
+  margin:0 auto;
+  text-align: center;
 }
 
   .footer {

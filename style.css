@@ -52,15 +52,18 @@ h2{
     background-size: cover;
   }
 
+
+  .faq-grid{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
   .wrapper-faq-boxes{
     display:block;
     width:25%;
     text-align: center;
-  
   }
-  .faq-card-img{
-    padding-top: 50px;
-  }
+ 
 
   
 

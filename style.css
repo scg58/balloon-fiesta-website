@@ -243,6 +243,7 @@ h2{
     border-radius: 10px;
     text-align: center;
     padding: .5em .5em;
+    
   }
 
 
@@ -273,6 +274,16 @@ h2{
   top: -10px;
   left: -10px;
   z-index: -1;
+
+}
+
+.background-box-faq{
+  background: #00ACFF;
+  width: 100%;
+  padding: 10px;
+  margin: 15px;
+
+
 }
 /*
 .home-box {
@@ -344,11 +355,20 @@ button {
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+
 }
 
 button:hover {
   background: grey;
   color: white;
+}
+
+.wrapper-faq {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  line-height: 40px;
 }
 
   .footer {

@@ -24,9 +24,17 @@ body {
 
 h1{
   font-family: 'boiling';
+  
 }
 h2{
   font-family: 'boiling';
+}
+
+h3{
+  font-family: 'boiling';
+  color:#00ACFF;
+  font-size: 30px;
+
 }
 .hero-image {
   background-image: url("images/main-page-header.png");
@@ -38,6 +46,7 @@ h2{
     background-image: url(images/tickets-hero-img.png);
     height: 90vh;
     background-size: cover;
+    
   }
 
   .schedule-hero-image{
@@ -53,19 +62,12 @@ h2{
   }
 
 
-  .faq-grid{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-  }
-  .wrapper-faq-boxes{
-    display:block;
-    width:25%;
-    text-align: center;
-  }
- 
+.img-card{
+  display: flex;
+  justify-content: center;
 
-  
+  background-size: cover;
+}
 
  .ticket-hero-text{
    text-align: center;
@@ -277,6 +279,28 @@ h2{
   position: relative;
 }
 
+.schedule-wrapper{
+  background: white;
+  border: 5px solid #FDDC00;
+  padding: 75px;
+  position: relative;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 70px;
+
+
+}
+
+.schedule-box{
+
+}
+
+
 .index-box {
   width: 30%;
   margin: 10px;
@@ -388,6 +412,30 @@ button:hover {
   width:80%;
   margin:0 auto;
   text-align: center;
+}
+
+
+
+.faq-grid{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.wrapper-faq-boxes{
+  width:300px;
+  text-align: center;
+  border: 3px solid #00ACFF;
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+ 
+  
 }
 
   .footer {

@@ -24,8 +24,8 @@ body {
 
 h1{
   font-family: 'boiling';
-  
 }
+
 h2{
   font-family: 'boiling';
 }
@@ -34,8 +34,9 @@ h3{
   font-family: 'boiling';
   color:#00ACFF;
   font-size: 30px;
-
 }
+
+
 .hero-image {
   background-image: url("images/main-page-header.png");
     height: 90vh;
@@ -64,9 +65,12 @@ h3{
 
 .img-card{
   display: flex;
-  justify-content: center;
+  height: 70vh;
+}
 
-  background-size: cover;
+.img-card img {
+  width: 100%;
+  object-fit: cover;
 }
 
  .ticket-hero-text{
@@ -296,9 +300,7 @@ h3{
 
 }
 
-.schedule-box{
 
-}
 
 
 .index-box {

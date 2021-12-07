@@ -26,8 +26,14 @@ h1{
   font-family: 'boiling';
 }
 
+.title{
+  font-size: 2.5em;
+}
+
 h2{
   font-family: 'boiling';
+  text-align: center;
+  font-size: 2.5em;
 }
 
 h3{
@@ -47,7 +53,7 @@ h3{
     background-image: url(images/tickets-hero-img.png);
     height: 90vh;
     background-size: cover;
-    
+    margin-bottom: 20px;
   }
 
   .schedule-hero-image{
@@ -66,11 +72,13 @@ h3{
 .img-card{
   display: flex;
   height: 70vh;
+  margin-bottom: 20px;
 }
 
 .img-card img {
   width: 100%;
   object-fit: cover;
+
 }
 
  .ticket-hero-text{
@@ -204,6 +212,10 @@ h3{
     transition: opacity 250ms ease-in-out 250ms;
   }
   
+
+
+
+
   @media screen and (min-width: 800px) {
     .nav-toggle-label {
       display: none;
@@ -265,8 +277,9 @@ h3{
     text-align: center;
     padding: .5em .5em;
     display:block;
-    margin-top: 20px;
+    margin: 20px auto;
     width: 200px;
+    text-transform: uppercase;
   }
 
 
@@ -336,6 +349,7 @@ h3{
 
 .box h2 {
   font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 1.5em;
 }
 
 .card{
@@ -448,6 +462,11 @@ button:hover {
     font-size: 20px;
     padding-top: 25px;
   }
+
+  .footer h2{
+font-size: 1.5em;
+  }
+  
 .footer ul{
 display: flex;
 justify-content: center;

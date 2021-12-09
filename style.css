@@ -45,7 +45,7 @@ h3{
 
 .hero-image {
   background-image: url("images/main-page-header.png");
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
   }
 
@@ -283,6 +283,10 @@ h3{
     text-transform: uppercase;
   }
 
+  .btn:hover{
+    background:#00ACFF;
+  color: white;
+  }
 
 .wrapper {
   display: flex;
@@ -313,8 +317,6 @@ h3{
 
 
 }
-
-
 
 
 .index-box {
@@ -363,6 +365,7 @@ h3{
 
 .gallery-photos{
   text-align: center;
+
 }
 
 .ticket-box {
@@ -370,8 +373,7 @@ h3{
 }
 
 .contact-title {
-  margin-top: 20px;
-  text-transform: uppercase;
+  margin-top: 40px;
   color: white;
   text-align: center;
 }
@@ -380,32 +382,39 @@ h3{
 .contact-title h2 {
   font-size: 16px;
   color: black;
-  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-family: 'boiling';
   margin: 0;
+  padding-bottom: 25px;
+  font-size: 1.8em;
 }
 
 form {
   background: #B84302;
   width: 300px;
-  margin: 0px auto 20px;
+  margin: 0px auto 40px;
   padding: 15px;
   border-radius: 15px;
   padding-bottom:25px;
   text-align: center;
+  color: white;
 }
 
 form div{
   margin:15px;
-  padding-right:20px;
   padding-bottom:5px;
+  justify-content: center;
+  text-align: center;
 }
 
 form input {
-  padding: 10px;
+  margin-top: 8px;
+ padding-top: 10px;
   width: 100%;
   border: none;
-border-bottom: 1px solid #999;
-  padding-bottom:10px;
+border-bottom: 3px solid #999;
+  padding-bottom:5px;
+  justify-content: center;
+  text-align: center;
 }
 
 button {
@@ -485,4 +494,31 @@ padding: 1.3em;
 color: white;
 }
 
+
+@media (max-width: 700px) {
+  .wrapper{
+    display: block;
+  }
+  .card{
+    display: block;
+  }
+  .index-box{
+    width:100%;
+  }
+
+  .card img{
+    width: 100%;
+  }
+
+  .index-box{
+    width:100%;
+  }
+
+.hero-image{
+height: 100vh;
+}
+.ticket-box{
+  width: 100%;
+}
+}
 

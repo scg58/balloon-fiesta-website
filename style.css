@@ -144,6 +144,10 @@ h3{
   .nav-toggle {
     display: none;
   }
+
+    
+
+  
   
   .nav-toggle-label {
     position: absolute;
@@ -193,6 +197,11 @@ h3{
     z-index: 100;
   }
   
+
+  .img.img-fluid{
+width: auto;
+height: auto;
+  }
   nav ul {
     margin: 0;
     padding: 0;
@@ -225,7 +234,7 @@ h3{
     transition: opacity 250ms ease-in-out 250ms;
   }
   
-
+  
 
 
 
@@ -252,7 +261,8 @@ h3{
       display: flex;
       justify-content: flex-end;
     }
-    
+      
+
     nav li {
       margin-left: 3em;
       margin-bottom: 0;
